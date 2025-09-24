@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet("https://pastebin.com/raw/FUEx0f3G"))()
 
-local Window = OrionLib:MakeWindow({Name = "罗布义管专用", HidePremium = false, SaveConfig = true,IntroText = "罗布义管专用", ConfigFolder = "罗布团长制作"})
+local Window = OrionLib:MakeWindow({Name = "罗布义管专用 V1.2.0 bata ", HidePremium = false, SaveConfig = true,IntroText = "welcome", ConfigFolder = "罗布团长制作"})
 game:GetService("StarterGui"):SetCore("SendNotification",{ Title = "HUB"; Text ="HUB"; Duration = 4; })
 
 local about = Window:MakeTab({
@@ -310,7 +310,19 @@ Tab:AddButton({
         end
 })
 
+Tab:AddButton({	Name = "飞行V3",	Callback = function()     loadstring(game:HttpGet('https://pastebin.com/raw/AjDmq385'))()  	end    })
 
+Tab:AddButton({	Name = "甩飞别人",	Callback = function()     local CoreGui = game:GetService("StarterGui")CoreGui:SetCore("SendNotification", {
+
+Tab:AddButton({	Name = "防止掉线（反挂机）",	Callback = function()	print("Anti Afk On")		local vu = game:GetService("VirtualUser")
+
+Tab:AddButton({	Name = "替身",	Callback = function()loadstring(game:HttpGet(('https://raw.githubusercontent.com/SkrillexMe/SkrillexLoader/main/SkrillexLoadMain')))()    end})
+
+Tab:AddButton({	Name = "爬墙",	Callback = function()loadstring(game:HttpGet("https://pastebin.com/raw/zXk4Rq2r"))()end})
+
+Tab:AddButton({	Name = "让别人控制自己",	Callback = function()loadstring(game:HttpGet(('https://pastefy.ga/a7RTi4un/raw'),true))()	end})
+
+Tab:AddButton({	Name = "无敌",	Callback = function()local lp = game:GetService "Players".LocalPlayerif lp.Character:FindFirstChild "Head" then
 
 local Tab = Window:MakeTab({
 
@@ -416,7 +428,7 @@ Tab:AddButton({
 
 local Tab = Window:MakeTab({
 
-    Name = "死铁",
+    Name = "死铁轨",
 
     Icon = "rbxassetid://4483345998",
 
